@@ -1,0 +1,4 @@
+#!/bin/sh
+gcc -c -Wall -Wshadow -g cunit.c
+gcc -o cunit cunit.o
+
